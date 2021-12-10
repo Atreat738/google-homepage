@@ -9,19 +9,19 @@ html, body {
 
 
 nav {
-    align-items: flex-start;
     display: flex;
+    align-items: flex-start;
     flex-direction: row;
-    font-size: 0.8rem;
     justify-content: space-between;
+    top: 0;
     margin: 0;
     width: 100%;
-    top: 0;
+    font-size: 0.8rem;
 }
 
 nav div {
-    align-items: center;
     display: flex;
+    align-items: center;
     float: right;
 }
 
@@ -44,8 +44,8 @@ nav li {
 
 ul {
     display: flex;
-    list-style: none;
     padding-left: 5px;
+    list-style: none;
 }
 
 li {
@@ -63,9 +63,10 @@ a:hover {
 }
 
 #image-div {
-    margin: 0px auto;
     position: relative;
     top: 120px;
+    margin: 0px auto;
+
 }
 
 #middle-container {
@@ -101,11 +102,11 @@ a:hover {
 footer {
     background-color: #EEEEEE;
     display: flex;
-    font-size: 0.8rem;
-    font-weight: 300;
     justify-content: space-between;
     margin-top: auto;
     width: 100%;
+    font-size: 0.8rem;
+    font-weight: 300;
 }
 
 footer ul {
